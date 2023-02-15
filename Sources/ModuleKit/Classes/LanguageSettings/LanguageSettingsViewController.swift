@@ -56,9 +56,9 @@ extension LanguageSettingsViewController: SectionsDataSource {
 
                         return CellBuilderNew.row(
                                 rootElement: .hStack([
-                                    .image32 { component in
-                                        component.imageView.image = ModuleKit.image(named: item.language)
-                                    },
+//                                    .image32 { component in
+//                                        component.imageView.image = ModuleKit.image(named: item.language)
+//                                    },
                                     .vStackCentered([
                                         .text { component in
                                             component.font = .body
